@@ -16,11 +16,14 @@ The pressure of making a perfect game is gone, and I tried to enjoy the process 
 
 ### Below are the images of the three rooms I have designed for my tiny game: 
 
-![ This is a photo of room0](Media/Room0.png)
 This is a photo of room 0
 
-![ This is a photo of room1](Media/Room1.png)
+![ This is a photo of room0](Media/Room0.png)
+
 This is a photo of room 1
 
-![ This is a photo of room2](Media/Room2.png)
+![ This is a photo of room1](Media/Room1.png)
+
 This is a photo of room 2
+
+![ This is a photo of room2](Media/Room2.png)
