@@ -14,8 +14,13 @@ Finally, I created three rooms for the game, added dialogues and conditions, and
 
 The pressure of making a perfect game is gone, and I tried to enjoy the process instead of just focusing on the final result—even though I’m happy with how it turned out. For future games, I want to carry that mindset forward: learning and enjoying the process while also expanding my skills. I want to explore more tools like Unity, create my own 3D characters and environments, and keep experimenting with storytelling in my games.
 
+### Below are the images of the three rooms I have designed for my tiny game: 
+
 ![ This is a photo of room0](Media/Room0.png)
+This is a photo of room 0
 
 ![ This is a photo of room1](Media/Room1.png)
+This is a photo of room 1
 
 ![ This is a photo of room2](Media/Room2.png)
+This is a photo of room 2
