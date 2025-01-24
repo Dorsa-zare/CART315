@@ -15,7 +15,7 @@ Finally, I created three rooms for the game, added dialogues and conditions, and
 The pressure of making a perfect game is gone, and I tried to enjoy the process instead of just focusing on the final result—even though I’m happy with how it turned out. For future games, I want to carry that mindset forward: learning and enjoying the process while also expanding my skills. I want to explore more tools like Unity, create my own 3D characters and environments, and keep experimenting with storytelling in my games.
 
 
-Game: [Lost in the Woods Game](Projects/lost_in_the_woods.html)
+Game: [Lost in the Woods Game](../Projects/lost_in_the_woods.html)
 
 ### Below are the images of the three rooms I have designed for my tiny game: 
 
