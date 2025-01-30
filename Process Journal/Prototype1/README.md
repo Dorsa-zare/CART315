@@ -22,11 +22,11 @@ Game: [Apple Picking Game](https://github.com/Dorsa-zare/CART315/tree/main/Proje
 
 ### Below are the images of the my game: 
 
-This is a photo of unity editor
+This is a photo of unity editor.
 
 ![ This is a photo of unity](Media/Unity.png)
 
-This is a photo of Gameplay
+This is a photo of Gameplay.
 
 ![ This is a photo of Gameplay](Media/Game.png)
 
