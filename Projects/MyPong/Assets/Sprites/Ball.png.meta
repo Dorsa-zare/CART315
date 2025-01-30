@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7bcf019bbbee4ea45a024d9b6c8d769b
+guid: c2f01ca622a28b8449ef7851c4641d30
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1483665779731714255
-    second: Bomb_0
+      213: -3919779002189068522
+    second: Ball_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bomb_0
+      name: Ball_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 14
-        width: 584
-        height: 876
+        x: 0
+        y: 0
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13f20b985d5f86be0800000000000000
-      internalID: -1483665779731714255
+      spriteID: 6174c70f3c52a99c0800000000000000
+      internalID: -3919779002189068522
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Bomb_0: -1483665779731714255
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
