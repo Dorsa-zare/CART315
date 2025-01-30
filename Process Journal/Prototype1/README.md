@@ -18,7 +18,7 @@ Overall, I had a great time working with Unity this week. I feel like making the
 
 There’s still a bit I’m unsure about, like how to submit a Unity game to GitHub or how others could play my Unity game without having Unity installed. I’m hoping to clarify this process and figure out the best way to organize and submit my projects, including my process journal. Overall, it’s been a productive and exciting week, and I’m looking forward to what comes next!
 
-Game: [Apple Picking Game]()
+Game: [Apple Picking Game](https://github.com/Dorsa-zare/CART315/tree/main/Projects)
 
 ### Below are the images of the my game: 
 
