@@ -16,6 +16,7 @@ This is a photo of the game's Menu.
 ![ This is a photo of main menu](Media/pongmenu.png)
 
 This is a GIF of the game play.
+
 ![ This is a GIF of game](Media/ponggif.gif)
 
 This is a photo of the game's GameOver Screen. 
