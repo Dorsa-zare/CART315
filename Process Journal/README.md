@@ -12,10 +12,14 @@ Overall, I’m super satisfied with how it turned out! One challenge I ran into 
 Game: [My Glowing Pong Game](https://github.com/Dorsa-zare/CART315/tree/main/Projects/MyPong)
 
 
-This is a photo of unity editor.
+This is a photo of the game's Menu.
+![ This is a photo of main menu](Media/pongmenu.png)
 
-![ This is a photo of main menu](Media/Unity.png)
+This is a GIF of the game play.
+![ This is a GIF of game](Media/ponggif.gif)
 
+This is a photo of the game's GameOver Screen. 
+![Pong Game Over screen](Media/ponggameover.png)
 
 ---------------------
 
@@ -44,19 +48,19 @@ Game: [Apple Picking Game](https://github.com/Dorsa-zare/CART315/tree/main/Proje
 
 This is a photo of unity editor.
 
-![ This is a photo of unity]()
+![ This is a photo of unity](Media/appleunity.png)
 
 This is a photo of Gameplay.
 
-![ This is a photo of Gameplay](Media/Game.png)
+![ This is a photo of Gameplay](Media/applegame.png)
 
 This is another photo of Gameplay with the bombs falling.
 
-![ This is a photo of Gameplay 2](Media/Game2.png)
+![ This is a photo of Gameplay 2](Media/applegame2.png)
 
 This is a photo of Game over screen.
 
-![ This is a photo of Game over screen](Media/Gameover.png)
+![ This is a photo of Game over screen](Media/applegameover.png)
 
 
 
