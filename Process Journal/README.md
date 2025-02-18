@@ -1,6 +1,52 @@
 ﻿# Process Journal
 
-## Breakout/Alien Invasion Game | 02.13.25
+## Alien Invasion Game 2 (Prototype 4) and game analysis| 02.18.25 
+
+### **1. Alien Invasion Game journal:**
+
+This week, I continued working on my Breakout-style game with an alien invasion theme.
+I made several improvements to add more challenge and excitement to the gameplay.
+
+**What I Worked On**
+- Added falling stones:
+    - Stones now spawn randomly from a random alien’s position.
+    - They fall toward the spaceship, forcing the player to dodge while shooting aliens.
+    - If a stone collides with the wall, it gets destroyed.
+- Implemented a GameOver condition:
+    - If a stone collides with the spaceship, the game ends.
+- Implemented a win condition:
+    - Added a countdown timer (60 seconds) displayed on the UI.
+    - If the player destroys all aliens before the timer reaches 0 without getting hit by stones, they win.
+    - Created a script to track how many aliens are left.
+    - Displayed “Game Over” or “You Win!” text depending on the outcome.
+
+**What I Learned**
+I feel really happy with how this turned out, especially the falling stones animation (they drop like popcorn), making the game feel dynamic and fun. It was great to have two weeks to work on this game since I had the chance to continue working and build on what I already made and gave me more time to gather ideas and take more time to learn. Overall I think that it’s also a good balance of challenge and engagement.
+I applied multiple things I learned from previous weeks: Random spawning, Object shooting mechanics, Breakout-style gameplay, and UI implementation.
+
+**Next Steps (Ideas to Implement)**
+- Power-ups (e.g., shield, extra life, faster shooting).
+- Different types of aliens with unique abilities.
+
+Game: [Alien Invasion Game](https://github.com/Dorsa-zare/CART315/tree/main/Projects/breakinOut)
+
+This is a GIF of the game play.
+![AlienInvasionGif2.gif](Media/AlienInvasionGif2.gif)
+
+### **2. Game Analysis: Level Devil:**
+
+What Makes It Interesting:
+The game constantly tricks you, platforms that seem stable disappear, and jumps behave weirdly. It keeps players on edge and forces them to stay alert. The controls are super simple, just running and jumping, but the way the game messes with physics makes it both fun and frustrating. It’s all about trial and error. You die a lot, but quick respawns make it feel more like a learning process than a punishment.
+
+Where It Falls Short:
+Some traps feel like pure guessing, which can get frustrating. Sometimes it feels less like skill and more like luck, which might turn some players off.
+
+What I Can Use in Future Projects:
+I like the idea of adding unexpected twists to gameplay, like power-ups with random effects. Also, designing levels that encourage players to experiment and learn by failing—but without making them rage-quit.
+
+
+---------------------
+## Breakout/Alien Invasion Game (Prototype 3)| 02.13.25
 This week, as we worked on the Breakout game in class, I decided to build on that for my assignment. I started by thinking about the theme and the fun games I used to play as a kid that had similar mechanics. One of the first games that came to mind was Chicken Invaders which is a series of shoot 'em up games created by Greek indie developer Konstantinos Prouskas. It’s kind of like Space Invaders, but what I always loved about it was the aesthetic, the sound effects, and the way the chickens moved. Some would take multiple hits to defeat, and the challenge of dodging attacks while shooting made it really fun. So, I decided to take inspiration from that for my own game.
 
 I started by replacing the original sprites to match a more neon, space-themed vibe. Instead of traditional bricks, I swapped them for alien faces that look like they’re screaming, which makes it both funny and a little chaotic. Then, instead of using the ball mechanic from Breakout, I changed it to a shooting mechanic. I added a bullet prefab and a script to make bullets spawn from the top of the spaceship (which was originally the paddle) whenever the player presses space. Once that was working, I made sure the bullets actually collided with the aliens and destroyed them on impact.
@@ -17,7 +63,7 @@ This is a GIF of the game play.
 
 
 ---------------------
-## My Pong Game | 02.05.25
+## My Pong Game (Prototype 2) | 02.05.25
 
 This week, I decided to make the Pong game from scratch to test how much I remembered from class. I quickly realized I forgot a lot of the script details, so I had to follow a YouTube tutorial for the base of the game. Once I got that down, I created the basic Pong gameplay, added a main menu with options like Play and Exit, and then set up the main game and game over scenes. I also made sure to show the scores during the game, and if a player hits -7 points, it triggers the game over screen.
 
