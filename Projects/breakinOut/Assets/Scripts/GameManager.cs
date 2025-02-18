@@ -1,38 +1,60 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
     public int lives;
     public int points;
+    public float timer = 60f; // Total time for the game (60 seconds)
 
-    public Image heartImage;
+    public Text gameOverText;
+    public Text winText; // Text to show when the player wins
 
     public static GameManager S;
-    
-    // Start is called before the first frame update
+
     void Awake() {
         S = this;
     }
 
     void Start() {
         lives = 4;
+        Time.timeScale = 1; // Ensure game runs normally at start
+
+        if (gameOverText != null) {
+            gameOverText.gameObject.SetActive(false);
+        }
+        if (winText != null) {
+            winText.gameObject.SetActive(false);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void Update() {
+        if (timer > 0) {
+            timer -= Time.deltaTime;  // Decrease timer over time
+        } else {
+            if (!winText.gameObject.activeSelf && !gameOverText.gameObject.activeSelf) {
+                ShowGameOver();
+            }
+        }
     }
 
-    public void LoseLife() {
-        lives -= 1;
-        // full life = 1 // 3
-        heartImage.fillAmount = (lives * .2f);
+    // **Win Condition (All Bricks Destroyed)**
+    public void Win() {
+        if (winText != null) {
+            winText.text = "Yay! You Win!";
+            winText.gameObject.SetActive(true);
+        }
+        Debug.Log("You Win!");
+        Time.timeScale = 0; // **Pause the game**
+    }
+
+    // **Lose Condition (Game Over)**
+    public void ShowGameOver() {
+        if (gameOverText != null) {
+            gameOverText.text = "Game Over!";
+            gameOverText.gameObject.SetActive(true);
+        }
+        Debug.Log("Game Over!");
+        Time.timeScale = 0; // **Pause the game**
     }
     
-    public void AddPoint(int numPoints) {
-        points += numPoints;
-    }
 }
