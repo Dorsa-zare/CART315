@@ -1,5 +1,16 @@
 ﻿# Process Journal
 
+
+## Iterative Prototype 1 | 03.05.25
+For the first stage of our prototyping process, my group followed the brainstorming method we used in class. We each contributed different ideas, themes, and art styles in a shared Google Doc. Afterward, we met in person to discuss common elements in our ideas and how we could combine them into a cohesive concept. We also considered the project timeline, our individual skill levels, and which aspects each member was most passionate about.
+
+For example, I offered to work on UI elements, visuals, and defining the win/lose conditions. Luca expressed interest in coding, while Hanif planned to contribute both to coding and pixel art. Together, we decided on a fun and whimsical theme—something unconventional and out of the ordinary. We also settled on a 2D art style, though specific details like the color palette will be determined based on the game’s story.
+
+This prototype focuses on the look/feel of the game, helping us explore visual direction and core mechanics. At this stage, we're working with low- to mid-fidelity elements. Moving forward, we will refine our art direction, establish basic gameplay mechanics, and create an early interactive version to test how our ideas translate into gameplay.
+
+
+
+---------------------
 ## Alien Invasion Game 2 (Prototype 4) and game analysis| 02.18.25 
 
 ### **1. Alien Invasion Game journal:**
