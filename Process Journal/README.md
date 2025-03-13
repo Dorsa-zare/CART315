@@ -1,6 +1,37 @@
 ﻿# Process Journal
 
+## Iterative Prototype 2 | 03.13.25
 
+**Game Prototype Update – TSA Agent Role-Playing Game**
+
+This week, we refined our game concept during studio time. Our game puts the player in the role of a TSA agent responsible for scanning passengers' luggage and identifying suspicious items. However, instead of focusing on obvious airport security threats, the game will present players with unexpected and humorous situations.
+For example, a player might discover a suitcase filled with ketchup packets that a grandma has collected to bring back home. The player then faces a dilemma, should they confiscate the items, let them through, or take further action?
+
+**Gameplay Overview**
+
+The game starts with an airport scene, zooming into the player’s POV as a TSA agent behind the conveyor belt.
+Suitcases pass through an X-ray machine, displaying their contents.
+If the player spots a suspicious item, they press a red button/joystick to flag the passenger for further investigation.
+In the second phase, passengers react differently. Some may cry, try to bribe the player, or demand to see a manager.
+At the end of the game, the player will see the consequences of their decisions. Whether they made the right calls or accidentally let a dangerous passenger board the plane.
+
+**Task Division for This Week**
+
+Dorsa: Created and illustrated game assets (prefabs) with a simple airport-themed color palette (blue/gray/red). Used Canva and Procreate to design elements like the conveyor belt, scanning machine, and buttons.
+
+Luca: Worked on coding and prototyping the X-ray screen scene, allowing players to press a button when selecting a suspicious item.
+
+**Next Steps for Next Week**
+
+Combine our work into a playable prototype.
+Add more game mechanics, including searching passengers and interacting with them.
+Design passengers’ appearances and expressions to enhance the dilemma-based gameplay.
+
+![scene assembly.png](Media/scene%20assembly.png)
+
+![TSAPrototype1.gif](Media/TSAPrototype1.gif)
+
+---------------------
 ## Iterative Prototype 1 | 03.05.25
 For the first stage of our prototyping process, my group followed the brainstorming method we used in class. We each contributed different ideas, themes, and art styles in a shared Google Doc. Afterward, we met in person to discuss common elements in our ideas and how we could combine them into a cohesive concept. We also considered the project timeline, our individual skill levels, and which aspects each member was most passionate about.
 
