@@ -21,6 +21,14 @@ Dorsa: Created and illustrated game assets (prefabs) with a simple airport-theme
 
 Luca: Worked on coding and prototyping the X-ray screen scene, allowing players to press a button when selecting a suspicious item.
 
+This stage focused on refining the TSA role and testing how players interact with luggage. We wanted to see if the scanning system felt intuitive and if the decision-making process created a strong dilemma.
+
+**Goals & Questions & Type of prototype**
+
+Our prototype was mostly implementation-based, with some focus on look and feel. We wanted to figure out "How intuitive is the scanning and flagging system?" We worked with low- to mid-fidelity assets—simple visuals, a functional but basic X-ray system, and early planning for passenger interactions.
+
+We learned that the scanning mechanic works but needs better feedback when selecting items. The decision phase is key to the game’s tension, so we’ll add more varied passenger reactions.
+
 **Next Steps for Next Week**
 
 Combine our work into a playable prototype.
