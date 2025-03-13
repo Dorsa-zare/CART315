@@ -1,5 +1,39 @@
 ﻿# Process Journal
 
+## Iterative Prototype 3 | 03.20.25
+
+This week, with my teammates Hanif and Luca, we talked about the game loop and how one would actually look, since we had already made some basic progress last week. We decided to focus on the mechanic that makes the suitcase move forward on the conveyor belt. Then, as soon as it arrives at the X-ray machine, the scene transitions to a close-up of the scan.
+
+We discussed our progress with the professor, and he suggested adding a random array feature that allows us to tag certain items as acceptable and others as unacceptable, then randomize them in each suitcase. We decided to focus on implementing this system.
+
+Luca worked on programming the random item generation and arrays.
+Hanif focused on the AI and interactive buttons like the "Deport" button.
+I worked on the illustrations of suitcases and xray items.
+I created multiple suitcase designs, matching the colors with our game’s palette. Luca then used my illustrations as prefabs, making them actually move along the conveyor belt. I also started illustrating the items that would appear on the X-ray screen. I created 7 acceptable items and 6 unacceptable ones, drawing them in Procreate and tagging them as A1, A2, A3... for acceptable and U1, U2, U3... for unacceptable.
+
+While designing the items, I included some obviously prohibited ones and some that create a moral dilemma, like a dead goldfish or a slice of watermelon, to keep things unexpected and funny. Once I completed the illustrations, Luca imported my prefabs, replacing the basic shapes with my X-ray item designs. He then finalized the item selection system and the transition to the next scene.
+
+- **Goals:** We focused on refining the game loop, specifically how the suitcase moves on the conveyor belt and transitions to the X-ray screen. We also worked on randomizing items in each suitcase and tagging them as acceptable or unacceptable.
+
+- **Prototype Type:** It was mainly an **implementation prototype**, testing mechanics like item randomization, tagging, and scene transitions.
+
+- **Fidelity Level:** **Mid-fidelity** functional mechanics with placeholder UI but refined visuals for suitcases and X-ray items.
+
+- **What We Learned:** The randomization system works, but balancing the mix of obvious vs. morally questionable items is key for engagement. Also, animations need smoothing.
+
+- **Next Steps:** Improve item balancing, refine UI feedback when players select an item, and polish the conveyor belt movement.
+
+The items I illustrated:
+![items.png](Media/items.png)
+
+The suitcases I illustrated:
+![suitcases.png](Media/suitcases.png)
+
+The UI Hanif worked on:
+![tsagif1.gif](Media/tsagif1.gif)
+
+---------------------
+
 ## Iterative Prototype 2 | 03.13.25
 
 **Game Prototype Update – TSA Agent Role-Playing Game**
@@ -20,6 +54,14 @@ At the end of the game, the player will see the consequences of their decisions.
 Dorsa: Created and illustrated game assets (prefabs) with a simple airport-themed color palette (blue/gray/red). Used Canva and Procreate to design elements like the conveyor belt, scanning machine, and buttons.
 
 Luca: Worked on coding and prototyping the X-ray screen scene, allowing players to press a button when selecting a suspicious item.
+
+This stage focused on refining the TSA role and testing how players interact with luggage. We wanted to see if the scanning system felt intuitive and if the decision-making process created a strong dilemma.
+
+**Goals & Questions & Type of prototype**
+
+Our prototype was mostly implementation-based, with some focus on look and feel. We wanted to figure out "How intuitive is the scanning and flagging system?" We worked with low- to mid-fidelity assets—simple visuals, a functional but basic X-ray system, and early planning for passenger interactions.
+
+We learned that the scanning mechanic works but needs better feedback when selecting items. The decision phase is key to the game’s tension, so we’ll add more varied passenger reactions.
 
 **Next Steps for Next Week**
 
