@@ -1,5 +1,34 @@
 ﻿# Process Journal
 
+
+## Iterative Prototype 4 | 03.27.25
+
+This week, we focused on planning the full game loop and addressing ongoing issues rather than making major progress. Our main goal was to refine how the line of passengers behaves in the background and how movement fits into the game flow.
+This was primarily an implementation prototype with some look and feel elements, particularly in visuals. We are working at a low- to mid-fidelity level, the mechanics still need polishing, but we now have a clearer vision of interactions.
+I worked on illustrations, creating a simple, repeatable set of 4-5 people for the background line, which moves forward as passengers are processed. Luca implemented this moving line into the prototype.
+
+The new illustrations: 
+
+![people.png](Media/people.png)
+
+
+The line of people integrated in the prototype:
+
+![line.png](Media/line.png)
+
+**What We Learned**
+* The line movement enhances immersion but needs smoother integration with mechanics.
+* The game loop needs clearer steps for processing passengers efficiently.
+
+
+**Next Steps**
+* Refine the game loop and interactions.
+* Add UI elements.
+* Playtest to evaluate pacing and flow.
+
+
+---------------------
+
 ## Iterative Prototype 3 | 03.20.25
 
 This week, with my teammates Hanif and Luca, we talked about the game loop and how one would actually look, since we had already made some basic progress last week. We decided to focus on the mechanic that makes the suitcase move forward on the conveyor belt. Then, as soon as it arrives at the X-ray machine, the scene transitions to a close-up of the scan.
