@@ -1,6 +1,46 @@
 ﻿# Process Journal
 
 
+---------------------
+
+## Iterative Prototype 5 | 04.03.25
+
+This week, my teammates and I had a Discord meeting to plan our next steps for the game. 
+
+We came up with a new mechanic: after finding a banned item and pressing the red button, the game zooms out to show the airport, where the player can drag the passenger toward either a board sign or an exit sign using the mouse. This adds a more whimsical interaction instead of relying on buttons or stamps, making the game feel more playful and unexpected.
+
+
+To support this mechanic, I designed the board and exit signs, and Luca added them to the scene. 
+
+![image.png](Media/image.png)
+
+
+I also created the layout for the zoomed-in view, illustrating a desk setup with space for buttons and a note on the top right of the screen.
+
+![scene2bg.png](Media/scene2bg.png)
+
+Hanif worked on the banned items list, which will be clickable for players to expand. 
+Some banned items are intentionally unexpected, like a watermelon slice (banned for having sharp edges) or a fish, adding humor and an extra challenge for players.
+
+![Screenshot_2025-04-03_at_1.07.01_PM.png](Media/Screenshot_2025-04-03_at_1.07.01_PM.png)
+
+This is how things look like when put together
+![BOARD.png](Media/BOARD.png)
+
+
+**What We Learned**
+1. Dragging passengers to different signs adds a more engaging way to interact with the game.
+2. A banned items list helps players but also adds humor and unpredictability.
+
+**Next Steps**
+1. Add a countdown timer to increase difficulty and create urgency.
+2. Develop UI elements, including the timer, progress bar, start menu, and game-over conditions.
+3. Animate the plane's outcome (taking off or crashing) based on player performance.
+
+The game is progressing well, and we’re excited about the next updates!
+
+
+---------------------
 ## Iterative Prototype 4 | 03.27.25
 
 This week, we focused on planning the full game loop and addressing ongoing issues rather than making major progress. Our main goal was to refine how the line of passengers behaves in the background and how movement fits into the game flow.
