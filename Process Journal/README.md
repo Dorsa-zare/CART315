@@ -1,6 +1,37 @@
 ﻿# Process Journal
 
 
+##  Final Iterative Prototype | 04.10.25
+
+This week, we’re getting much closer to finishing the game. I’d say it’s currently at a mid to high-fidelity prototype stage. We divided the tasks among ourselves to move forward efficiently.
+
+**My contributions this week:**
+1. Illustrated more character variations for the TSA check line and added them into the scene.
+2. Designed and implemented the main menu in Unity using UI elements.
+3. Created the layout, background, buttons, and title design.
+4. Added functionality with scene management:
+5. The Play button transitions to the game scene.
+6. The Quit button closes the game (this will fully work in the build version).
+![TSAMenu.png](Media/TSAMenu.png)
+
+**Luca’s contributions:**
+1. Worked on the character movement within the TSA line.
+2. Fixed layout issues in the scan scene, ensuring that the interaction options now display correctly.
+
+**Hanif’s contributions:**
+1. Added the banned items reference note to the game scene for players to use during inspection.
+![note.png](Media/note.png)
+
+**Challenges we faced:**
+* Our biggest issue this week was with pushing updates and syncing changes across our project.
+* Each of us made progress, but the others couldn’t always see those updates.
+* We need to resolve this syncing problem to fully combine our individual parts into a complete build.
+
+**Looking ahead:**
+We’re planning to playtest the current version in class next week, which should give us helpful feedback.
+With that input, I think we’ll be able to finalize the game and bring it even closer to a complete experience.
+
+
 ---------------------
 
 ## Iterative Prototype 5 | 04.03.25
