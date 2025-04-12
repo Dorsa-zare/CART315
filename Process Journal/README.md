@@ -1,35 +1,49 @@
 ﻿# Process Journal
 
 
-##  Final Iterative Prototype | 04.10.25
+##  Final Iterative Prototype | 04.12.25
 
-This week, we’re getting much closer to finishing the game. I’d say it’s currently at a mid to high-fidelity prototype stage. We divided the tasks among ourselves to move forward efficiently.
+This week, we achieved most of the goals that we set for this game. I’d say it’s currently at a mid to high-fidelity prototype stage. We divided the tasks among ourselves to move forward efficiently.
 
 **My contributions this week:**
 1. Illustrated more character variations for the TSA check line and added them into the scene.
 2. Designed and implemented the main menu in Unity using UI elements.
 3. Created the layout, background, buttons, and title design.
 4. Added functionality with scene management:
-5. The Play button transitions to the game scene.
-6. The Quit button closes the game (this will fully work in the build version).
-![TSAMenu.png](Media/TSAMenu.png)
+   * The Play button transitions to the game scene.
+   * The Quit button closes the game (this will fully work in the build version).
+5. Added tw0 ui texts on the first scene to guide player.
 
 **Luca’s contributions:**
 1. Worked on the character movement within the TSA line.
-2. Fixed layout issues in the scan scene, ensuring that the interaction options now display correctly.
+2. Fixed game ending. Added Win and lose condition.
+3. Fixed layout issues in the scan scene, ensuring that the interaction options now display correctly.
 
 **Hanif’s contributions:**
-1. Added the banned items reference note to the game scene for players to use during inspection.
-![note.png](Media/note.png)
+1. Added the banned items reference note to the game scene for players to see during inspection.
 
 **Challenges we faced:**
-* Our biggest issue this week was with pushing updates and syncing changes across our project.
-* Each of us made progress, but the others couldn’t always see those updates.
-* We need to resolve this syncing problem to fully combine our individual parts into a complete build.
+* Our biggest issue this week was pushing updates and syncing changes across the project. We often ran into problems where one person's updates wouldn’t show up for the others, which slowed down our progress and made collaboration tricky.
+* We also noticed some uneven contribution levels within the team. While some members were able to put in more time and effort, others weren’t as involved in completing the tasks we had discussed. This affected how much we were able to improve the project overall.
+* 
 
-**Looking ahead:**
-We’re planning to playtest the current version in class next week, which should give us helpful feedback.
-With that input, I think we’ll be able to finalize the game and bring it even closer to a complete experience.
+**Playtest and feedbacks we got:**
+
+During the playtest, we received a lot of positive comments about the visual style, the playful vibe, and the overall concept of the game. People seemed to really enjoy the topic and how fun it feels.
+That said, we also got some helpful feedback on areas we could improve:
+
+1. Dragging passengers issue: Some people experienced bugs when trying to drag passengers toward the “Exit” or “Board” sections.
+3. Win/Lose logic: One of the main points raised by the professor was about how the win/lose condition is currently set up. Right now, in the second scene where the player selects banned items, the game only lets you continue if you’ve made the correct choices. This basically makes it impossible for players to lose, which takes away from the challenge and learning experience.
+5. Passenger tags: Another issue is that passengers are pre-tagged as “dangerous” or “not,” which doesn't actually reflect whether or not the player correctly identified the banned items in their suitcase. This breaks the connection between gameplay and consequences.
+7. A suggestion we received was to let players proceed no matter what they selected, and then determine the outcome based on their choices. For example, the passenger’s status could change depending on whether banned items were correctly flagged.
+9. Title alignment: Someone mentioned that the title wasn’t centered, so I fixed that.
+11. Banned items list: It was also suggested that the list of banned items would be more useful if players could zoom in or expand it. Hanif worked on this and implemented a solution.
+
+Overall, the feedback gave us a clear direction for what we need to improve if we decide to work on the game again. 
+
+![MenutoGame.gif](Media/MenutoGame.gif)
+![banneditemslist.gif](Media/banneditemslist.gif)
+![selectitems.gif](Media/selectitems.gif)
 
 
 ---------------------
