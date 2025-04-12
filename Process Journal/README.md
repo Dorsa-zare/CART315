@@ -25,7 +25,7 @@ This week, we achieved most of the goals that we set for this game. I’d say it
 **Challenges we faced:**
 * Our biggest issue this week was pushing updates and syncing changes across the project. We often ran into problems where one person's updates wouldn’t show up for the others, which slowed down our progress and made collaboration tricky.
 * We also noticed some uneven contribution levels within the team. While some members were able to put in more time and effort, others weren’t as involved in completing the tasks we had discussed. This affected how much we were able to improve the project overall.
-* 
+
 
 **Playtest and feedbacks we got:**
 
@@ -33,11 +33,11 @@ During the playtest, we received a lot of positive comments about the visual sty
 That said, we also got some helpful feedback on areas we could improve:
 
 1. Dragging passengers issue: Some people experienced bugs when trying to drag passengers toward the “Exit” or “Board” sections.
-3. Win/Lose logic: One of the main points raised by the professor was about how the win/lose condition is currently set up. Right now, in the second scene where the player selects banned items, the game only lets you continue if you’ve made the correct choices. This basically makes it impossible for players to lose, which takes away from the challenge and learning experience.
-5. Passenger tags: Another issue is that passengers are pre-tagged as “dangerous” or “not,” which doesn't actually reflect whether or not the player correctly identified the banned items in their suitcase. This breaks the connection between gameplay and consequences.
-7. A suggestion we received was to let players proceed no matter what they selected, and then determine the outcome based on their choices. For example, the passenger’s status could change depending on whether banned items were correctly flagged.
-9. Title alignment: Someone mentioned that the title wasn’t centered, so I fixed that.
-11. Banned items list: It was also suggested that the list of banned items would be more useful if players could zoom in or expand it. Hanif worked on this and implemented a solution.
+2. Win/Lose logic: One of the main points raised by the professor was about how the win/lose condition is currently set up. Right now, in the second scene where the player selects banned items, the game only lets you continue if you’ve made the correct choices. This basically makes it impossible for players to lose, which takes away from the challenge and learning experience.
+3. Passenger tags: Another issue is that passengers are pre-tagged as “dangerous” or “not,” which doesn't actually reflect whether or not the player correctly identified the banned items in their suitcase. This breaks the connection between gameplay and consequences.
+4. A suggestion we received was to let players proceed no matter what they selected, and then determine the outcome based on their choices. For example, the passenger’s status could change depending on whether banned items were correctly flagged.
+5. Title alignment: Someone mentioned that the title wasn’t centered, so I fixed that.
+6. Banned items list: It was also suggested that the list of banned items would be more useful if players could zoom in or expand it. Hanif worked on this and implemented a solution.
 
 Overall, the feedback gave us a clear direction for what we need to improve if we decide to work on the game again. 
 
